@@ -17,3 +17,9 @@ class Lowson {
 class SevenEleven {
     name = "セブンイレブン";
 }
+
+const a = AbstStore.getStore("711");
+const b = AbstStore.getStore("7110");
+
+console.log(a);
+console.log(b);

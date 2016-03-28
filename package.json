@@ -2,7 +2,7 @@
   "name": "gof-typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/takeo-asai/gof-typescript#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-typescript": "^2.12.1"
   }
 }
